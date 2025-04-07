@@ -1,42 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mentor Invisível</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mentor Invisível • Destravando Reservas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #ccc;
+    }
+    section {
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .cta {
+      background: #000;
+      color: #fff;
+      padding: 30px 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta h3 {
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+    }
+    .cta p {
+      margin-bottom: 20px;
+    }
+    .cta input, .cta button {
+      padding: 12px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      width: 90%;
+      max-width: 400px;
+    }
+    .cta input {
+      margin-bottom: 10px;
+    }
+    .cta button {
+      background-color: #00df76;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .sobre, .porque, .prova {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 20px;
+      color: #999;
+    }
+  </style>
 </head>
-<body class="min-h-screen bg-black text-white flex items-center justify-center px-6 py-12">
+<body>
 
-  <div class="max-w-2xl text-center space-y-6">
-    <h1 class="text-4xl md:text-5xl font-serif tracking-tight">Mentor Invisível</h1>
-    <p class="text-lg text-gray-300">Estratégia. Resultado. Silêncio.</p>
-    <div class="h-0.5 w-20 bg-white mx-auto my-4"></div>
-    <p class="text-xl md:text-2xl font-light">
-      Você não precisa aparecer,<br />
-      precisa dominar o jogo.
-    </p>
+  <header>
+    <h1>Chega de tentar sozinho.</h1>
+    <h2>O Mentor Invisível vai destravar suas reservas no Airbnb – de graça.</h2>
+  </header>
 
-    <div class="bg-zinc-900 border border-zinc-700 p-6 mt-8 rounded-xl shadow-lg">
-      <div class="space-y-4">
-        <p class="text-sm text-gray-400">
-          🎯 Mentoria estratégica para anfitriões de temporada
-        </p>
-        <form class="space-y-4">
-          <input type="text" placeholder="Seu nome" class="w-full px-4 py-2 rounded-md bg-black border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white" />
-          <input type="text" placeholder="Seu WhatsApp" class="w-full px-4 py-2 rounded-md bg-black border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white" />
-          <input type="text" placeholder="Cidade/Estado" class="w-full px-4 py-2 rounded-md bg-black border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white" />
-          <button type="submit" class="w-full bg-white text-black font-semibold py-2 rounded-md hover:bg-gray-200 transition">
-            Entrar no radar invisível
-          </button>
-        </form>
-      </div>
-    </div>
+  <section class="porque">
+    <h3>🚨 Por que é de graça?</h3>
+    <p>Meu plano é simples: quero impactar 1.000 anfitriões até abril/2026 e coletar 1.000 depoimentos reais. Essa é minha missão. Estou vivendo isolado na serra, com 12h por dia para te ajudar sem cobrar 1 centavo. O que quero é transformação verdadeira.</p>
+  </section>
 
-    <p class="text-sm text-gray-600 mt-6">
-      ⚠️ Essa oportunidade é para quem age no silêncio e valoriza resultados reais.
-    </p>
-  </div>
+  <section class="sobre">
+    <h3>💡 Quem é o Mentor Invisível?</h3>
+    <p>Sem exposição, sem promessas vazias. Apenas resultados. Estudo há mais de 20.000 horas e agora comecei um projeto secreto chamado “Anfitrião Solo”. Minha meta é te levar da primeira reserva ao Superhost – mesmo que você nunca tenha alugado nada antes.</p>
+  </section>
+
+  <section class="prova">
+    <h3>📌 O que você vai receber:</h3>
+    <ul>
+      <li>• Acesso imediato ao Bootcamp gratuito “Destravando Reservas”</li>
+      <li>• PDF exclusivo: Mapa Invisível do Superhost</li>
+      <li>• Convite para o Grupo Secreto de Mentoria</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h3>✅ Entre agora. As vagas são limitadas.</h3>
+    <p>Você será mentorado até ter resultado. Zero risco. 100% comprometido com sua virada.</p>
+    <form>
+      <input type="text" placeholder="Seu nome" required><br>
+      <input type="email" placeholder="Seu melhor e-mail" required><br>
+      <button type="submit">Quero ser mentorado</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Mentor Invisível – Todos os direitos reservados.
+  </footer>
 
 </body>
 </html>
